@@ -95,7 +95,7 @@ header nav a:last-child {
 
 /* HOME TOP CONTENT */
 
-img.home-img {
+img.about-img {
     width: 100%;
 }
 
@@ -111,6 +111,23 @@ img.home-img {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/* ABOUT TOP CONTENT */
+
+img.about-img {
+    width: 100%;
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    margin: 25px 0;
+}
+.top-text {
+    margin: 15px 0;  
 }
 
 /* HOME MIDDLE CONTENT */
@@ -172,6 +189,55 @@ img.home-img {
     background: dodgerblue;
 }
 
+/* ABOUT MIDDLE CONTENT */
+
+.about-main-content{
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 15px;
+    border-top: 1px dashed lightgray;
+    border-bottom: 1px dashed lightgray;
+}
+.about-list-top .about-list {
+    margin-right: 10px;
+    border-bottom: 1px dashed lightgray;
+    padding-bottom: 17px;
+}
+.about-list-top{
+    line-height: 1.125;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-list-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-list button {
+    width: 109px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: smaller;
+    outline: none;
+    cursor: pointer;
+}
+
+.about-list button:hover {
+	background-color: grey;
+}
+
+
+
 /* HOME BOTTOM CONTENT */
 .bottom-content {
     display: flex;
@@ -185,6 +251,12 @@ img.home-img {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* ABOUT BOTTOM CONTENT */
+.about-bottom-content {
+    padding: 10px;
+    margin-bottom: 10px
 }
 
 /* HOME FOOTER CONTENT */
